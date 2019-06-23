@@ -1,0 +1,26 @@
+Ensure that all dependencies are up to date...  If this is the first time you have run Etherpad please be patient.
+audited 8186 packages in 3.912s
+found 13 vulnerabilities (2 low, 1 moderate, 10 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+Clearing minified cache...
+Started Etherpad...
+[36m[2019-06-23 20:32:38.073] [DEBUG] console - [39mRunning on Node v9.11.2 (minimum required Node version: 6.9.0)
+[32m[2019-06-23 20:32:38.090] [INFO] console - [39mAll relative paths will be interpreted relative to the identified Etherpad base dir: /var/www/html/etherpad-lite-1.7.5
+[36m[2019-06-23 20:32:38.091] [DEBUG] AbsolutePaths - [39mRelative path "settings.json" can be rewritten to "/var/www/html/etherpad-lite-1.7.5/settings.json"
+[36m[2019-06-23 20:32:38.091] [DEBUG] AbsolutePaths - [39mRelative path "credentials.json" can be rewritten to "/var/www/html/etherpad-lite-1.7.5/credentials.json"
+[32m[2019-06-23 20:32:38.091] [INFO] console - [39mSettings loaded from: /var/www/html/etherpad-lite-1.7.5/settings.json
+[32m[2019-06-23 20:32:38.091] [INFO] console - [39mNo credentials file found in /var/www/html/etherpad-lite-1.7.5/credentials.json. Ignoring.
+[32m[2019-06-23 20:32:38.095] [INFO] console - [39mUsing skin "no-skin" in dir: /var/www/html/etherpad-lite-1.7.5/src/static/skins/no-skin
+[32m[2019-06-23 20:32:38.095] [INFO] console - [39mSession key loaded from: /var/www/html/etherpad-lite-1.7.5/SESSIONKEY.txt
+[33m[2019-06-23 20:32:38.095] [WARN] console - [39mDirtyDB is used. This is fine for testing but not recommended for production. File location: /var/www/html/etherpad-lite-1.7.5/var/dirty.db
+[32m[2019-06-23 20:32:38.552] [INFO] APIHandler - [39mApi key file read from: "/var/www/html/etherpad-lite-1.7.5/APIKEY.txt"
+[32m[2019-06-23 20:32:38.749] [INFO] console - [39mInstalled plugins: 
+[32m[2019-06-23 20:32:38.750] [INFO] console - [39mReport bugs at https://github.com/ether/etherpad-lite/issues
+[33m[2019-06-23 20:32:38.750] [WARN] console - [39mCan't get git version for server header
+ENOENT: no such file or directory, lstat '/var/www/html/etherpad-lite-1.7.5/.git'
+[33m[2019-06-23 20:32:38.751] [WARN] console - [39mCan't get git version for server header
+ENOENT: no such file or directory, lstat '/var/www/html/etherpad-lite-1.7.5/.git'
+[32m[2019-06-23 20:32:38.751] [INFO] console - [39mYour Etherpad version is 1.7.5 ()
+[32m[2019-06-23 20:32:38.827] [INFO] console - [39mYou can access your Etherpad instance at http://0.0.0.0:9001/
+[33m[2019-06-23 20:32:38.827] [WARN] console - [39mAdmin username and password not set in settings.json.  To access admin please uncomment and edit 'users' in settings.json
+[33m[2019-06-23 20:32:38.827] [WARN] console - [39mEtherpad is running in Development mode.  This mode is slower for users and less secure than production mode.  You should set the NODE_ENV environment variable to production by using: export NODE_ENV=production
